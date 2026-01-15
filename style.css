@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #fff7ed;
+    color: brown;
+}
+.header{
+    background-color: #faf189;
+    text-align: center;
+    padding: 40px 20px;
+}
+.header h1{
+    font-size: 35px;
+}
+.header p{
+    font-size: 18px;
+    color: black;
+}
+.menu{
+    background-color: #fed7aa;
+    text-align: center;
+    padding: 10px;
+}
+.menu a{
+    margin: 0 12px;
+    text-decoration: none;
+    color: #832f13;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.menu a:hover {
+    color: white;
+    background-color: #c2410c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 450px;
+}
+.text{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: white;
+    padding: 20px;
+    max-width: 420px;
+    border-radius: 10px;
+    color: black;
+}
+.text-about {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    max-width: 420px;
+    border-radius: 10px;
+    color: black;
+}
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 28px;
+    color: #9d460f;
+    margin-bottom: 30px;
+}
+.doctor-list {
+    display: flex;
+    justify-content: center;
+}
+
+.doctor-card {
+    background-color:white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 12px;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.doctor-card:hover {
+    transform: translateY(-10px);
+    background-color: white;
+}
+.trust ul{
+    list-style: none;
+}
+
+.trust li{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+}
+.footer {
+    background-color: rgba(137, 51, 8, 0.97);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.about-list{
+    list-style: none;
+}
+.about-list li{
+    margin-bottom: 10px;
+    color: black;
+}
+.about-value{
+    text-align: center;
+    padding: 50px;
+    background-color: #edeae5;
+}
+.about-value h2{
+    padding: 20px;
+    font-size: 25px;
+}
+.about-value p{
+    color: black;
+}
+.doctor-banner{
+    display: flex;
+    justify-content: center;
+}
+.doctor-a{
+    background-color: #ffffff;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.3s;
+    margin: 0 15px;
+}
+.doctor-a img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+.doctor-a span{
+    color: black;
+}
+.doctor-a:hover {
+    transform: translateY(-10px);
+    background-color: white;
+}
